@@ -94,17 +94,15 @@ blockquote {
   background: #FFF;
 }
 
-ul {
-  list-style: none;
+ul { 
+  margin: 2px 0 22px 17px;
 }
 
-ul li::before {
-  content: "\2022";
-  color: red;
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+ul li { 
+  list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
 }
 
 ol { 
@@ -406,7 +404,7 @@ table tr td {
 
 ul.images {
   width:950px;
-  height:1273px;
+  height:300px;
   overflow:hidden;
   position:relative;
   margin:0;

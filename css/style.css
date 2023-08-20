@@ -100,6 +100,11 @@ ul {
 
 ul li { 
   list-style-type: circle;
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
   margin: 0 0 6px 0; 
   padding: 0 0 4px 5px;
   line-height: 1.5em;
